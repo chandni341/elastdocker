@@ -4,6 +4,7 @@ version: '3.5'
 networks:
   default:
     name: elastic
+    driver: bridge
     external: false
 
 # will contain all elasticsearch data.
